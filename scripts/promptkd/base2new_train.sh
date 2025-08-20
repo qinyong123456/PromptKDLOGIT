@@ -8,7 +8,7 @@ DATASET=$1 # 'imagenet' 'caltech101' 'dtd' 'eurosat' 'fgvc_aircraft' 'oxford_flo
 SEED=$2
 
 CFG=vit_b16_c2_ep20_batch8_4+4ctx
-SHOTS=16
+SHOTS=0
 
 DIR=output/base2new/train_base/${DATASET}/shots_${SHOTS}/${TRAINER}/${CFG}/seed_${SEED}
 
